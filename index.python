@@ -1,0 +1,6 @@
+# Load the dataset
+url = 'https://raw.githubusercontent.com/yourusername/yourrepository/main/house_prices.csv'  # Update with the correct path
+data = pd.read_csv(url)
+
+# Display the first few rows of the dataset
+print(data.head())

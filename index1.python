@@ -1,0 +1,7 @@
+# Select relevant features
+features = data[['SquareFootage', 'Bedrooms', 'Bathrooms']]
+target = data['Price']
+
+# Handle missing values if necessary
+features = features.fillna(features.mean())
+target = target.fillna(target.mean())
